@@ -65,20 +65,7 @@ if(diskon > 90){
     gratis = "baju";
 }
 else {
-    gratis = "sempak";
+    gratis = "celana";
 }
 console.log(gratis);
 
-// fungsi waktu Sabtu, 16 Desember 2023
-let waktu = new Date(); 
-tahun = waktu.getFullYear();
-bulan = waktu.getMonth();
-tanggal = waktu.getDate();
-hari = waktu.getDay();
-jam = waktu.getHours();
-menit = waktu.getMinutes();
-detik = waktu.getSeconds();
-dataHari = ["Minggu","Senin","Selasa","Rabu","Kamis","Jum'at","Sabtu"];
-dataBulan = ["Jan","Feb","Mar","Apr","Mei","Jun","Jul","Agu","Sep","Okt","Nov","Des"];
-hasilWaktu = `${dataHari[hari]},${tanggal} ${dataBulan[bulan]} ${tahun}`;
-console.log(hasilWaktu);
